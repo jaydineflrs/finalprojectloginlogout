@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gain1"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="535dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/round_bg_bg_whitte"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TIPS FOR GAINWEIGHT"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:background="@color/teal_200"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Eat more frequently. When you're underweight, you may feel full faster"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Choose nutrient-rich foods"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Try smoothies and shakes"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Watch when you drink"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Make every bite count"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Top it off"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Have an occasional treat"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Exercise"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Eat almonds, walnuts, macadamia nuts, peanuts"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="High-fat dairy: Whole milk, full-fat yogurt, cheese, cream"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Dried fruit: Raisins, dates, prunes, and others"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="24dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#737373"
+            android:text="Back" />
+    </LinearLayout>  android:textSize="20dp"
+
+
+
+</ScrollView>
+
+
+
+
+

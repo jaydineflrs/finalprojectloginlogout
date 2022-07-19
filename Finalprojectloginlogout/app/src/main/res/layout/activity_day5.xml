@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/hea"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/round_bg_bg_whitte"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 5"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:background="@color/teal_200"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BREAKFAST (287 calories)
+1Serving-Muesli with Raspberries"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="25dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LUNCH (344 calories)
+                1Serving-Chipotle Lime Cauliflower Taco Bowls"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="25dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SNACK (210 calories)
+                1-Medium Banana
+
+                1Tbsp-Peanut Butter"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="25dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DINNER (454 calories)
+                1Serving- Mediterranean Ravioli with Artichokes and Olives"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="25dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#737373"
+            android:textSize="20dp"
+            android:text="Back" />
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/hea"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/round_bg_bg_whitte"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 4 "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:background="@color/teal_200"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BREAKFAST (393 calories)
+
+
+
+                1 Serving Muesli
+                with Raspberries
+
+
+
+                1 Medium banana"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="26dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LUNCH (344 calories)
+                1Serving-Chipotle Lime Cauliflower Taco Bowls"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="25dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SNACK(188 calories)
+                1/2 Cup Raspberries
+
+                1oz. Dark Chocolate"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="25dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DINNER (521 calories)
+                1 Serving Chicken and Cucumber Lettuce Wraps with Peanut Sauce"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="25dp"
+                android:background="#E3C2F1"
+                android:layout_gravity="left"/>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:backgroundTint="#737373"
+                android:text="Back"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="200dp"
+                android:backgroundTint="#737373"
+                android:text="Next"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
